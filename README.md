@@ -52,7 +52,7 @@ Cavadão.
 
 ### Função get\_info\_albuns()
 
-##### retorna as informações do album "Roda Gigante"
+##### Retorna as informações do album "Roda Gigante"
 
     get_info_albuns(album = "Roda Gigante")
 
@@ -61,7 +61,7 @@ Cavadão.
     ##   <chr>        <int> <chr>                         <chr>    
     ## 1 Roda Gigante  2013 Carlos Coelho e Marcelo Magal Warner
 
-##### retorna as informações de todos os albuns
+##### Retorna as informações de todos os albuns
 
     get_info_albuns()
 
@@ -95,7 +95,7 @@ Cavadão.
     get_lyrics(album = "Roda Gigante", musica = "Roda-Gigante")
 
     ## Response [https://api-biquini.herokuapp.com/letra?album=Roda%20Gigante&musica=Roda-Gigante]
-    ##   Date: 2022-05-03 21:45
+    ##   Date: 2022-05-03 21:55
     ##   Status: 200
     ##   Content-Type: text/html; charset=UTF-8
     ##   Size: 639 B

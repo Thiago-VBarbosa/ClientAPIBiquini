@@ -34,13 +34,13 @@ get_shows(pais = "Brasil", estado = "MT", cidade = "Cuiabá")
 
 ### Função get_info_albuns()
 
-##### retorna as informações do album "Roda Gigante"
+##### Retorna as informações do album "Roda Gigante"
 
 ```{r,warning=FALSE,message=FALSE}
 get_info_albuns(album = "Roda Gigante")
 ```
 
-##### retorna as informações de todos os albuns
+##### Retorna as informações de todos os albuns
 
 ```{r,warning=FALSE,message=FALSE}
 get_info_albuns()
