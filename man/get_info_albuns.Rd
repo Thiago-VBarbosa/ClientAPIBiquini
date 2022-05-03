@@ -21,6 +21,6 @@ Obtêm informações dos albuns do Biquini Cavadão
 get_info_albuns(album = "Roda Gigante")
 
 #retorna as informaÃ§Ãµes de todos os albuns
-get_albuns_info()
+get_info_albuns()
 
 }

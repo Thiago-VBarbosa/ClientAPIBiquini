@@ -18,6 +18,6 @@ Retorna a letra da música em formato HTML
 Obtêm a letra da música e do album especificado
 }
 \examples{
-get_lyrics(abum = "Roda Gigante", musica = "Roda-Gigante")
+get_lyrics(album = "Roda Gigante", musica = "Roda-Gigante")
 
 }

@@ -12,7 +12,7 @@
 #' get_info_albuns(album = "Roda Gigante")
 #'
 #' #retorna as informações de todos os albuns
-#' get_albuns_info()
+#' get_info_albuns()
 #'
 #' @export
 

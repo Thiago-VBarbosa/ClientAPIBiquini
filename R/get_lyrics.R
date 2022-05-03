@@ -7,7 +7,7 @@
 #'
 #' @return Retorna a letra da música em formato HTML
 #'
-#' @examples get_lyrics(abum = "Roda Gigante", musica = "Roda-Gigante")
+#' @examples get_lyrics(album = "Roda Gigante", musica = "Roda-Gigante")
 #'
 #' @export
 
