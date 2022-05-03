@@ -1,0 +1,67 @@
+---
+output:
+  html_document: default
+  pdf_document: default
+---
+
+ClientAPIBiquini
+====================
+
+Cliente de API para consumir dados da banda Biquini Cavadão através da Linguagem R. O cliente de API foi desenvolvido através da linguagem R para o consumo de informações estruturadas da API desenvolvida através do projeto [api-biquini](https://github.com/Thiago-VBarbosa/api-biquini) e disponível em [*API Biquini Cavadão*](https://api-biquini.herokuapp.com).
+
+
+Para instalar o pacote ClientAPIBiquini basta rodar o comando abaixo:
+
+```
+devtools::install_github("Thiago-VBarbosa/ClientAPIBiquini")
+```
+
+Pode-se, por exemplo, obter informações sobre o histórico de shows, informação sobre os albuns e letras das músicas da banda Biquini Cavadão.
+
+### Função get_shows()
+
+##### Histórico de shows nos Estados Unidos
+
+```{r,warning=FALSE,message=FALSE}
+library(ClientAPIBiquini)
+get_shows(pais = "Estados Unidos")
+```
+##### Histórico de shows no Brasil, no estado de Mato Grosso, na cidade de Cuiabá
+
+```{r,warning=FALSE,message=FALSE}
+get_shows(pais = "Brasil", estado = "MT", cidade = "Cuiabá")
+```
+
+### Função get_info_albuns()
+
+##### retorna as informações do album "Roda Gigante"
+
+```{r,warning=FALSE,message=FALSE}
+get_info_albuns(album = "Roda Gigante")
+```
+
+##### retorna as informações de todos os albuns
+
+```{r,warning=FALSE,message=FALSE}
+get_info_albuns()
+```
+
+### Função get_lyrics()
+
+##### Retorna a letra da música Roda-Gigante em formato HTML
+```{r,warning=FALSE,message=FALSE}
+get_lyrics(album = "Roda Gigante", musica = "Roda-Gigante")
+```
+
+
+### Função get_musicas()
+
+##### Obtêm a lista de músicas do album "Ilustre Guerreiro"
+
+```{r,warning=FALSE,message=FALSE}
+get_musicas(album = "Ilustre Guerreiro")
+```
+
+
+
+
